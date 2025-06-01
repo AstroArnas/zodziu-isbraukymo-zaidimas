@@ -1,0 +1,79 @@
+h1{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+}
+
+.lentele {
+  display: grid;
+  row-gap: 1px;
+  column-gap: 12px;
+  margin-bottom: 20px;
+}
+
+.lentele div {
+  font-size: large;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  cursor: pointer;
+  user-select: none;
+}
+
+.lentele div.pazymeta {
+  background-color: rgb(255, 255, 195);
+}
+
+.zodziai {
+  font-family: sans-serif;
+}
+
+.zodziai span {
+  display: inline-block;
+  margin: 4px 8px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background: #eee;
+}
+.zodziai span.rastas {
+  background: lightgreen;
+}
+
+
+button{
+  font-family: sans-serif;
+  padding: 10px;
+  background-color: rgb(86, 146, 86);
+  border-radius: 10px;
+  border: 1px solid gray;
+  color: white
+}
+
+button:hover{
+  background-color: rgb(53, 90, 53);
+}
+/* Žalias fonas teisingiems žodžiams */
+.rastas {
+  background-color: lightgreen; /* Žalioji spalva teisingiems žodžiams */
+}
+
+/* Pilkas fonas klaidingiems žodžiams */
+.nerastas {
+  background-color: lightgray; /* Pilka spalva klaidingiems žodžiams */
+}
+
+.aktyvus {
+  background-color: lightblue;
+}

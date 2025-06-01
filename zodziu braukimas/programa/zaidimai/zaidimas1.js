@@ -1,0 +1,18 @@
+export const lentele = [
+  'USJALKSTYR',
+  'GUASILASVA',
+  'NSUAGXPIST',
+  'IDIRNXNPAR',
+  'KUAAUGANSY',
+  'AOXKAFSAKT',
+  'LNKAIMASNA',
+  'NAKVANXIMS',
+  'IAJICKNUFU',
+  'SAKINGUNOD'
+];
+
+export const zodziai = [
+  'ASILAS', 'SAPNAS', 'RYTAS',
+  'VAKARAS', 'DUONA', 'UGNIKALNIS',
+  'FUNKCIJA', 'KAIMAS','AUGA'
+];
